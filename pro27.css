@@ -1,0 +1,42 @@
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right , pink , rgb(173, 91, 91) , white);
+}
+h2{
+  margin-bottom: 100px;
+  font-size: 2em;
+  font-family: cursive;
+  letter-spacing: 2px;
+  text-align: center;
+  
+}
+.ddd{
+  position: relative;
+}
+button{
+    border: none;
+    background: rgb(87, 40, 40);
+    color: white;
+    padding: 65px 65px;
+    border-radius: 10px;
+    font-size: 50px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+    
+  
+}
+button:hover{
+    filter: grayscale(0);
+}
+p{
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
